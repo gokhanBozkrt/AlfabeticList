@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var countryVM = CountryData()
+    
     var body: some View {
         ScrollViewReader { proxy in
             List {
